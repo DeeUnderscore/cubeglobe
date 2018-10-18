@@ -1,0 +1,140 @@
+width = 24
+height = 26
+base_path = "assets/"
+
+[[files]]
+filename = "rock.png"
+
+    [[files.tiles]]
+    kind = "Rock"
+    x = 0
+    y = 0 
+
+    [[files.tiles]]
+    kind = "Rock"
+    x = 24
+    y = 0
+
+    [[files.tiles]]
+    kind = "Rock"
+    x = 48
+    y = 0
+
+    [[files.tiles]]
+    kind = "Rock"
+    x = 72
+    y = 0
+
+    [[files.tiles]]
+    kind = "Rock"
+    x = 0
+    y = 26
+
+    [[files.tiles]]
+    kind = "Rock"
+    x = 24
+    y = 26
+
+    [[files.tiles]]
+    kind = "Rock"
+    x = 48
+    y = 26
+
+    [[files.tiles]]
+    kind = "Rock"
+    x = 72
+    y = 26
+
+
+[[files]]
+filename = "soil.png"
+
+    [[files.tiles]]
+    kind = "Soil"
+    x = 0
+    y = 0 
+
+    [[files.tiles]]
+    kind = "Soil"
+    x = 24
+    y = 0
+
+    [[files.tiles]]
+    kind = "Soil"
+    x = 48
+    y = 0
+
+    [[files.tiles]]
+    kind = "Soil"
+    x = 72
+    y = 0
+
+    [[files.tiles]]
+    kind = "Soil"
+    x = 0
+    y = 26
+
+    [[files.tiles]]
+    kind = "Soil"
+    x = 24
+    y = 26
+
+    [[files.tiles]]
+    kind = "Soil"
+    x = 48
+    y = 26
+
+    [[files.tiles]]
+    kind = "Soil"
+    x = 72
+    y = 26
+
+
+[[files]]
+filename = "grass.png"
+
+    [[files.tiles]]
+    kind = "Grass"
+    x = 0
+    y = 0 
+
+    [[files.tiles]]
+    kind = "Grass"
+    x = 24
+    y = 0
+
+    [[files.tiles]]
+    kind = "Grass"
+    x = 48
+    y = 0
+
+    [[files.tiles]]
+    kind = "Grass"
+    x = 72
+    y = 0
+
+    [[files.tiles]]
+    kind = "Grass"
+    x = 0
+    y = 26
+
+    [[files.tiles]]
+    kind = "Grass"
+    x = 24
+    y = 26
+
+    [[files.tiles]]
+    kind = "Grass"
+    x = 48
+    y = 26
+
+    [[files.tiles]]
+    kind = "Grass"
+    x = 72
+    y = 26
+
+[[files]]
+filename = "water.png"
+
+    [[files.tiles]]
+    kind = "Water"

@@ -1,0 +1,23 @@
+[package]
+name = "cubeglobe"
+version = "0.1.0"
+authors = ["D Anzorge <d.anzorge@gmail.com>"]
+
+[features]
+bundled = [ "sdl2/bundled" ]
+
+[dependencies]
+failure = "0.1.3"
+failure_derive = "0.1.3"
+ndarray = "0.12.0"
+toml = "0.4.8"
+serde = "1.0.80"
+serde_derive = "1.0.80"
+enum-iterator = "0.2.3"
+rand = "0.5.5"
+noise = "0.5.1"
+
+[dependencies.sdl2]
+version = "0.31.0"
+default-features = false
+features = ["image"]

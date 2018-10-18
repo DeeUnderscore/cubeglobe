@@ -1,0 +1,33 @@
+# Width and height of an individual tile in pixels
+width = 24
+height = 26
+base_path = "assets/"
+
+# Tiles can be spread over multiple files
+[[files]]
+filename = "twocubetall.png"
+
+    # A file can have multiple tiles
+    [[files.tiles]]
+    kind = "Rock"
+
+    # Offsets are optional, and assumed to be 0,0 if not specified. 0,0 is upper
+    # left.
+    x = 0
+    y = 0 
+
+    [[files.tiles]]
+    kind = "Rock"
+    x = 24
+    y = 0
+
+    # Every kind of block must have at least one tile. For testing purposes, 
+    # this file redefines the same tile to serve for multiple blocks.
+    [[files.tiles]]
+    kind = "Water"
+
+    [[files.tiles]]
+    kind = "Soil"
+
+    [[files.tiles]]
+    kind = "Grass"
