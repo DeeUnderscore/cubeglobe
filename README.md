@@ -9,7 +9,7 @@ Slightly modified from [`examples/tergentwo.rs`](examples/tergentwo.rs):
 
 ```rust
     let config_toml = std::fs::read_to_string("assets/full-tiles.toml").unwrap();
-    let rconfig = Renderer::from_str(config_toml).unwrap();
+    let rconfig = Renderer::from_config_str(config_toml).unwrap();
 
     let iso_map = TerGenTwo::new()
         .set_len(32)

@@ -7,7 +7,7 @@ use cubeglobe::map::generator::{Generator, TerGenTwo};
 pub fn main() {
     let config_toml = include_str!("../assets/full-tiles.toml");
 
-    let rconfig = Renderer::from_str(config_toml).unwrap();
+    let rconfig = Renderer::from_config_str(config_toml).unwrap();
 
     let iso_map = TerGenTwo::new()
         .set_len(32)
