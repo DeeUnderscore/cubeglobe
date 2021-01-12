@@ -136,7 +136,7 @@ impl Generator for TerGenTwo {
                     let soil_depth =
                         (layer_noise.get([x as f64, y as f64]) * self.layer_height as f64) as usize;
 
-                    let rock_height: usize = height - soil_depth;
+                    let rock_height: usize = height.saturating_sub(soil_depth);
 
                     isomap
                         .0
