@@ -1,6 +1,6 @@
 [package]
 name = "cubeglobe"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["D Anzorge <d.anzorge@gmail.com>"]
 
 [features]
@@ -18,6 +18,6 @@ rand = "0.5.5"
 noise = "0.5.1"
 
 [dependencies.sdl2]
-version = "0.32.0"
+version = "0.34.0"
 default-features = false
 features = ["image"]
